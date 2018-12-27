@@ -1,1 +1,2 @@
-Test Read Me ....
+PersianBillValidator
+Algorithm of Bill Validation
