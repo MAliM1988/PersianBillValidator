@@ -10,10 +10,3 @@ build_script:
 environment:
   COVERALLS_REPO_TOKEN:
     secure: 4OUkOIpTU+f4K6tZZajvsvbRwYyKl7tbxE7Kq0FGNPwNBTAgiFubibEqYuwnejYu
-    
-test_script:
-- ps: >-
-    nuget install xunit.runner.console -OutputDirectory packages -Version 2.3.1
-    
-    nuget install OpenCover -OutputDirectory packages -Version 4.6.166
-    dotnet tool install coveralls.net --version 1.0.0 --tool-path tool
